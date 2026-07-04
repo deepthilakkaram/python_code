@@ -1,12 +1,4 @@
-#!/usr/bin/env python3
-"""
-Communication Window Analyzer
-Reads a single-line input string from stdin and prints the length of the longest
-continuous segment containing no repeated lowercase letters.
 
-Algorithm: sliding window with last-seen positions (O(n) time, O(1) extra space
-since alphabet size is constant).
-"""
 import sys
 
 
